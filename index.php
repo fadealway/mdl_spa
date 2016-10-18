@@ -21,7 +21,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <title>Material Design Lite</title>
+    <title>ProgTech Control Co., Ltd. - ProgTechasia.com</title>
 
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
@@ -87,16 +87,16 @@
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
       <!-- Title -->
-      <span class="mdl-layout-title">Title</span>
+      <span class="mdl-layout-title">ProgTech Control</span>
     </div>
     <!-- Tabs -->
     <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
-      <a href="#overview" class="mdl-layout__tab is-active">Tab 1</a>
-      <a href="#features" class="mdl-layout__tab">Tab 2</a>
-      <a href="#scroll-tab-3" class="mdl-layout__tab">Tab 3</a>
-      <a href="#scroll-tab-4" class="mdl-layout__tab">Tab 4</a>
-      <a href="#scroll-tab-5" class="mdl-layout__tab">Tab 5</a>
-      <a href="#scroll-tab-6" class="mdl-layout__tab">Tab 6</a>
+      <a href="#overview" class="mdl-layout__tab is-active">Home</a>
+      <a href="#features" class="mdl-layout__tab">About Us</a>
+      <a href="#scroll-tab-3" class="mdl-layout__tab">Our Services</a>
+      <a href="#scroll-tab-4" class="mdl-layout__tab">Contact US</a>
+     <!--   <a href="#scroll-tab-5" class="mdl-layout__tab">Tab 5</a>
+      <a href="#scroll-tab-6" class="mdl-layout__tab">Tab 6</a> -->
     </div>
   </header>
       <main class="mdl-layout__content">
