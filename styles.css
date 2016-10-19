@@ -29,6 +29,13 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+
 .mdl-demo .mdl-layout__header-row {
   padding-left: 40px;
   
