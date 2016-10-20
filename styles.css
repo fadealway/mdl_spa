@@ -85,9 +85,9 @@ html, body {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.mdl-demo .mdl-card > * {
+/*.mdl-demo .mdl-card > * {
   height: auto;
-}
+}*/
 .mdl-demo .mdl-card .mdl-card__supporting-text {
   margin: 40px;
   -webkit-flex-grow: 1;
@@ -403,12 +403,24 @@ h1.header {
     padding-top: 20px;
   }
 }
-/*——————————————
-others
-———————————————*/
 
 a.portfolio-link {
   margin: 0 auto;
   display: block;
   text-align: center;
+}
+
+/* Add Fab button on Card */
+
+.something-else {
+  overflow: visible;
+  z-index: 10;
+}
+
+.something-else > button {
+  position: absolute;
+  top: 0;
+  right: 28px;
+  -webkit-transform: translate(0px, -28px);
+  transform: translate(0px, -28px);
 }
