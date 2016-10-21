@@ -63,6 +63,17 @@
   ga('create', 'UA-86055936-1', 'auto');
   ga('send', 'pageview');
 
+
+(function(){
+        var t,i,e,n=window,o=document,a=arguments,s="script",r=["config","track","identify","visit","push","call","trackForm","trackClick"],c=function(){var t,i=this;for(i._e=[],t=0;r.length>t;t++)(function(t){i[t]=function(){return i._e.push([t].concat(Array.prototype.slice.call(arguments,0))),i}})(r[t])};for(n._w=n._w||{},t=0;a.length>t;t++)n._w[a[t]]=n[a[t]]=n[a[t]]||new c;i=o.createElement(s),i.async=1,i.src="//static.woopra.com/js/w.js",e=o.getElementsByTagName(s)[0],e.parentNode.insertBefore(i,e)
+})("woopra");
+
+woopra.config({
+    domain: 'ittipat-profile.herokuapp.com'
+});
+woopra.track();
+
+
 </script>
 
 	<!--<script src="javascript.js"> </script>-->
@@ -615,11 +626,7 @@
 						<li><a href="#">Help</a></li>
 						<li><a href="#">Privacy and Terms</a></li>
 					</ul>
-					<a title="Google Analytics Alternative" href="http://clicky.com/100997999"><img alt="Google Analytics Alternative" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
-<script src="//static.getclicky.com/js" type="text/javascript"></script>
-<script type="text/javascript">try{ clicky.init(100997999); }catch(e){}</script>
-<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100997999ns.gif" /></p></noscript>
-
+					
 				</div>
 			</footer>
 		</main>
