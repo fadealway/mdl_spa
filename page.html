@@ -34,7 +34,7 @@
 	<!-- Add to homescreen for Safari on iOS -->
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
-	<meta name="apple-mobile-web-app-title" content="Material Design Lite">
+	<meta name="apple-mobile-web-app-title" content="ProgTech Control">
 	<link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
 
 	<!-- Tile icon for Win8 (144x144 + tile color) -->
@@ -56,14 +56,38 @@
 
 <!-- Start of Woopra Code -->
 <script>
+
 (function(){
         var t,i,e,n=window,o=document,a=arguments,s="script",r=["config","track","identify","visit","push","call","trackForm","trackClick"],c=function(){var t,i=this;for(i._e=[],t=0;r.length>t;t++)(function(t){i[t]=function(){return i._e.push([t].concat(Array.prototype.slice.call(arguments,0))),i}})(r[t])};for(n._w=n._w||{},t=0;a.length>t;t++)n._w[a[t]]=n[a[t]]=n[a[t]]||new c;i=o.createElement(s),i.async=1,i.src="//static.woopra.com/js/w.js",e=o.getElementsByTagName(s)[0],e.parentNode.insertBefore(i,e)
 })("woopra");
+/*
+var slideIndex = 1;
+showSlides(slideIndex);
 
-woopra.config({
-    domain: 'ittipat-profile.herokuapp.com'
-});
-woopra.track();
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}*/
+
 </script>
 <!-- End of Woopra Code -->
 
@@ -126,6 +150,40 @@ woopra.track();
 
 
 				</section>
+<!--
+				<section>
+
+					<div class="slideshow-container">
+
+					<div class="mySlides fade">
+					
+					<img src="images/img_nature_wide.jpg" style="width:100%">
+					
+					</div>
+
+					<div class="mySlides fade">
+					
+					<img src="images/img_fjords_wide.jpg" style="width:100%">
+					
+					</div>
+
+					<div class="mySlides fade">
+					
+					<img src="images/img_mountains_wide.jpg" style="width:100%">
+					
+					</div>
+
+					<a class="prev" onclick="plusSlides(-1)">❮</a>
+					<a class="next" onclick="plusSlides(1)">❯</a>
+
+					</div>
+					<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+				</section>-->
 
 				<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
 					<div class="mdl-card mdl-cell mdl-cell--12-col">
@@ -491,7 +549,7 @@ woopra.track();
 				<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
 					<div class="mdl-card mdl-cell mdl-cell--12-col">
 						<div class="mdl-card__supporting-text">
-							<h4>Loation</h4>
+							<h4>Location</h4>
 
 							<iframe height="480" marginheight="0" src="https://www.google.com/maps/d/embed?mid=zspVkIXg2eME.ksQxdLxt_HA0" frameborder="0" width="640" marginwidth="0" scrolling="no"></iframe>
 							<!--<iframe
