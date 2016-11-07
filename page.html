@@ -52,14 +52,23 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="material.min.css">
 	<script src="material.min.js"></script>
+	<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
+		<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.cslider.js"></script>
+
 	<link rel="stylesheet" href="styles.css">
 
 <!-- Start of Woopra Code -->
-<script>
+<script type="text/javascript">
 
-(function(){
-        var t,i,e,n=window,o=document,a=arguments,s="script",r=["config","track","identify","visit","push","call","trackForm","trackClick"],c=function(){var t,i=this;for(i._e=[],t=0;r.length>t;t++)(function(t){i[t]=function(){return i._e.push([t].concat(Array.prototype.slice.call(arguments,0))),i}})(r[t])};for(n._w=n._w||{},t=0;a.length>t;t++)n._w[a[t]]=n[a[t]]=n[a[t]]||new c;i=o.createElement(s),i.async=1,i.src="//static.woopra.com/js/w.js",e=o.getElementsByTagName(s)[0],e.parentNode.insertBefore(i,e)
-})("woopra");
+			$(function() {
+			
+				$('#da-slider').cslider();
+				
+			});
+// (function(){
+//         var t,i,e,n=window,o=document,a=arguments,s="script",r=["config","track","identify","visit","push","call","trackForm","trackClick"],c=function(){var t,i=this;for(i._e=[],t=0;r.length>t;t++)(function(t){i[t]=function(){return i._e.push([t].concat(Array.prototype.slice.call(arguments,0))),i}})(r[t])};for(n._w=n._w||{},t=0;a.length>t;t++)n._w[a[t]]=n[a[t]]=n[a[t]]||new c;i=o.createElement(s),i.async=1,i.src="//static.woopra.com/js/w.js",e=o.getElementsByTagName(s)[0],e.parentNode.insertBefore(i,e)
+// })("woopra");
 /*
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -127,15 +136,49 @@ function showSlides(n) {
               </div>
             </div>-->
 
-					<div class="mdl-card on-the-road-again mdl-cell mdl-cell--12-col">
-						<div class="mdl-card__media mdl-color-text--grey-50 mdl-card__title">
+					<div class="mdl-card  mdl-cell mdl-cell--12-col">
+						<div class="mdl-card__media mdl-color-text--grey-50 ">
+
+			<div id="da-slider" class="da-slider">
+				<div class="da-slide">
+					<h2>Warm welcome</h2>
+					<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.</p>
+					<!--<a href="#" class="da-link">Read more</a>-->
+					<div class="da-img"><img src="images/1.png" alt="image01" /></div>
+				</div>
+				<div class="da-slide">
+					<h2>Easy management</h2>
+					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+					<!--<a href="#" class="da-link">Read more</a>-->
+					<div class="da-img"><img src="images/2.png" alt="image01" /></div>
+				</div>
+				<div class="da-slide">
+					<h2>Revolution</h2>
+					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+					<!--<a href="#" class="da-link">Read more</a>-->
+					<div class="da-img"><img src="images/3.png" alt="image01" /></div>
+				</div>
+				<div class="da-slide">
+					<h2>Quality Control</h2>
+					<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					<!--<a href="#" class="da-link">Read more</a>-->
+					<div class="da-img"><img src="images/4.png" alt="image01" /></div>
+				</div>
+				<nav class="da-arrows">
+					<span class="da-arrows-prev"></span>
+					<span class="da-arrows-next"></span>
+				</nav>
+			</div>
+
+
+
 							<div class="mdl-card__title-text">
-								<h3>About Us</h3>
+								<!--<h3>About Us</h3>-->
 							</div>
 
 						</div>
 						<div class="mdl-card__supporting-text">
-							<!--<h4>About Us</h4>-->
+							<h4>About Us</h4>
 							Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Nostrud in laboris labore nisi amet do dolor
 							eu fugiat consectetur elit cillum esse. Pariatur occaecat nisi laboris tempor laboris eiusmod qui id Lorem esse commodo
 							in. Exercitation aute dolore deserunt culpa consequat elit labore incididunt elit anim.
